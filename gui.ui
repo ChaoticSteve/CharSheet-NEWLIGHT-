@@ -1629,6 +1629,9 @@
        </item>
        <item>
         <widget class="QLabel" name="dagger_btn">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="text">
           <string>Кинжал</string>
          </property>
@@ -1638,7 +1641,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_4">
+        <widget class="QLineEdit" name="dagger_history">
          <property name="maximumSize">
           <size>
            <width>25</width>
@@ -1654,7 +1657,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_5">
+        <widget class="QLineEdit" name="dagger_skill">
          <property name="maximumSize">
           <size>
            <width>25</width>
@@ -1670,7 +1673,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_6">
+        <widget class="QLineEdit" name="dagger_bonus">
          <property name="maximumSize">
           <size>
            <width>25</width>
@@ -1699,7 +1702,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_37">
+        <widget class="QLabel" name="sword">
          <property name="maximumSize">
           <size>
            <width>25</width>
@@ -1715,7 +1718,10 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_38">
+        <widget class="QLabel" name="sword_btn">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="text">
           <string>Меч</string>
          </property>
@@ -1725,7 +1731,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_7">
+        <widget class="QLineEdit" name="sword_history">
          <property name="maximumSize">
           <size>
            <width>25</width>
@@ -1733,7 +1739,7 @@
           </size>
          </property>
          <property name="text">
-          <string>100</string>
+          <string>0</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1741,12 +1747,15 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_8">
+        <widget class="QLineEdit" name="sword_skill">
          <property name="maximumSize">
           <size>
            <width>25</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="text">
+          <string>0</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1754,12 +1763,15 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_9">
+        <widget class="QLineEdit" name="sword_bonus">
          <property name="maximumSize">
           <size>
            <width>25</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="text">
+          <string>0</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
