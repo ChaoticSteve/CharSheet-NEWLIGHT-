@@ -6157,14 +6157,14 @@
    <widget class="QLabel" name="result">
     <property name="geometry">
      <rect>
-      <x>860</x>
+      <x>820</x>
       <y>530</y>
-      <width>111</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Результат броска</string>
     </property>
    </widget>
   </widget>
